@@ -4,7 +4,7 @@ import Link from "next/link";
 
 function Page() {
   return (
-    <main className="mt-24">
+    <main className="mt-24 text-white">
       <Image
         src={bg}
         fill
@@ -19,7 +19,7 @@ function Page() {
         </h1>
         <Link
           href="/cabins"
-          className="bg-accent-500 px-8 py-6 text-primary-800 text-lg font-semibold hover:bg-accent-600 transition-all"
+          className="bg-yellow-600 px-8 py-6 text-primary-800 text-lg font-semibold hover:bg-yellow-500 rounded-md transition-all"
         >
           Explore luxury cabins
         </Link>
